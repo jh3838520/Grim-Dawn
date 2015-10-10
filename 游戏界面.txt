@@ -1,6 +1,6 @@
 ﻿#General
 
-tagGameDifficultySetting01=Normal Difficulty
+tagGameDifficultySetting01=普通难度
 tagGameDifficultySetting02=Veteran Difficulty
 tagGameDifficultySetting03=Elite Difficulty
 
