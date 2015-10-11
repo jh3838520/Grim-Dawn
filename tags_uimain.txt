@@ -286,14 +286,14 @@ tagCloudSaving=开启steam云存档
 tagResetCloud=删除云存档
 tagDownloadCloud=下载云存档
 
-tagUPnPCheckFail=UPnP服务不可用，无法通过路由器创建游戏主机。请检查路由器设置并启用UPnP，或者手动设置UDP和TCP协议的连接端口为27016。
-tagUPnPNotAvailableHelp=UPnP服务不可用，无法通过路由器在互联网创建游戏主机。请检查路由器设置并启用UPnP，或者手动设置UDP和TCP协议的连接端口为27016。
+tagUPnPCheckFail=UPnP 服 务 不 可 用 ， 无 法 通 过 路 由 器 创 建 游 戏 主 机 。 请 检 查 路 由 器 设 置 并 启 用 UPnP ， 或 者 手 动 设 置 UDP 和 TCP 协 议 的 连 接 端 口 为 27016。
+tagUPnPNotAvailableHelp=UPnP 服 务 不 可 用 ， 无 法 通 过 路 由 器 在 互 联 网 创 建 游 戏 主 机 。 请 检 查 路 由 器 设 置 并 启 用 UPnP ， 或 者 手 动 设 置 UDP 和 TCP 协 议 的 连 接 端 口 为 27016。
 
 tagUPnPEnabledHelp=UPnP已启用，无需手动设置。
-tagUPnPDisabledHelp=UPnP已关闭，UDP和TCP协议的连接端口需设置为27016来创建游戏主机。
+tagUPnPDisabledHelp=UPnP 已 关 闭 ， UDP 和 TCP 协 议 的 连 接 端 口 需 设 置 为 27016 来 创 建 游 戏 主 机 。
 
-tagUPnPHelp=UPnP是一种允许客户端和路由数据交互的协议。在创建互联网主机时，路由器端口需为开启状态。UPnp协议在游戏客户端运行时自动开启这些端口，并在退出游戏时关闭，无需手动操作。
-tagIPCheckHelp=网络设置测试确认本地路由器的外部IP地址与互联网的外部IP地址有效。
+tagUPnPHelp=UPnP 是 一 种 允 许 客 户 端 和 路 由 数 据 交 互 的 协 议 。 在 创 建 互 联 网 主 机 时 ， 路 由 器 端 口 需 为 开 启 状 态 。 UPnp 协 议 在 游 戏 客 户 端 运 行 时 自 动 开 启 这 些 端 口 ， 并 在 退 出 游 戏 时 关 闭 ， 无 需 手 动 操 作 。
+tagIPCheckHelp=网 络 设 置 测 试 确 认 本 地 路 由 器 的 外 部 IP 地 址 与 互 联 网 的 外 部 IP 地 址 有 效 。
 
 tagIPCheckFail=本地路由器的公共IP地址与互联网检测出的地址不符。 常见于用户通过多层路由运行客户端并创建主机时。请检查路由器设置并重启游戏。
 
