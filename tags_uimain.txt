@@ -1,5 +1,5 @@
-﻿tagTitleScreenText=恐 怖 黎 明{^n}©2015 Crate Entertainment, LLC{^n}{^n}欢 迎 来 到 测 试 版 ， 期 待 您 的 反 馈 ！{^n}{^n}请 访 问 www.grimdawn.com 参 与 到 {^n} 游 戏 后 续 制 作 ！
-tagDemoScreenText=欢 迎 各 位 玩 家 ！{^n}{^n}游 戏 可 通 过 steam 平 台 获 得 ， 或 者 访 问 www.grimdawn.com 订 购 。
+﻿tagTitleScreenText=恐 怖 黎 明 {^n} ©2015 Crate Entertainment, LLC {^n}{^n} 欢 迎 来 到 测 试 版 ， 期 待 您 的 反 馈 ！{^n}{^n} 请 访 问 www.grimdawn.com 参 与 到 {^n} 游   戏   后   续   制   作   ！
+tagDemoScreenText=欢 迎 各 位 玩 家 ！{^n}{^n} 游 戏 可 通 过 steam 平 台 获 得 ， 或 者 访 问 www.grimdawn.com 订 购 。
 tagMenu01=开始游戏
 tagMenu02=自定义游戏
 tagMenu03=information
