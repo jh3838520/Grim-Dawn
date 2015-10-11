@@ -1,5 +1,5 @@
-﻿tagTitleScreenText=恐怖黎明{^n}©2015 Crate Entertainment, LLC{^n}{^n}欢迎来到测试版，期待您的反馈！{^n}{^n}请访问www.grimdawn.com参与到{^n}游戏后续制作！
-tagDemoScreenText=欢迎各位玩家！{^n}{^n}游戏可通过steam平台获得，或者访问www.grimdawn.com订购。
+﻿tagTitleScreenText=恐 怖 黎 明{^n}©2015 Crate Entertainment, LLC{^n}{^n}欢 迎 来 到 测 试 版 ， 期 待 您 的 反 馈 ！{^n}{^n}请 访 问 www.grimdawn.com 参 与 到 {^n} 游 戏 后 续 制 作 ！
+tagDemoScreenText=欢 迎 各 位 玩 家 ！{^n}{^n}游 戏 可 通 过 steam 平 台 获 得 ， 或 者 访 问 www.grimdawn.com 订 购 。
 tagMenu01=开始游戏
 tagMenu02=自定义游戏
 tagMenu03=information
@@ -88,7 +88,7 @@ tagGameStateStarting=开始游戏......
 tagGameStateConnecting=连接服务器......
 tagGameStateData=等待服务器响应......
 
-tagGogMustBeSignedIn=您需要登陆GOG Galaxy平台进行游戏。请登陆后通过GOG Launcher启动游戏。
+tagGogMustBeSignedIn=您 需 要 登 陆 GOG Galaxy 平 台 进 行 游 戏 。 请 登 陆 后 通 过 GOG Launcher 启 动 游 戏 。
 
 #
 # Options
@@ -281,7 +281,7 @@ tagUpnpHelp=帮助
 tagUpnpControl=启用UPnP
 tagNetworkStatusTitle=网络连接状态：
 tagNetworkStatusTest=测试
-tagNetworkNoOpts=游戏中不能进行网络设置。{^n}请退出游戏至主菜单的设置-网络。
+tagNetworkNoOpts=游 戏 中 不 能 进 行 网 络 设 置 。 {^n} 请 退 出 游 戏 至 主 菜 单 的 设 置 - 网 络 。
 tagCloudSaving=开启steam云存档
 tagResetCloud=删除云存档
 tagDownloadCloud=下载云存档
@@ -292,18 +292,18 @@ tagUPnPNotAvailableHelp=UPnP 服 务 不 可 用 ， 无 法 通 过 路 由 器
 tagUPnPEnabledHelp=UPnP已启用，无需手动设置。
 tagUPnPDisabledHelp=UPnP 已 关 闭 ， UDP 和 TCP 协 议 的 连 接 端 口 需 设 置 为 27016 来 创 建 游 戏 主 机 。
 
-tagUPnPHelp=UPnP 是 一 种 允 许 客 户 端 和 路 由 数 据 交 互 的 协 议 。 在 创 建 互 联 网 主 机 时 ， 路 由 器 端 口 需 为 开 启 状 态 。 UPnp 协 议 在 游 戏 客 户 端 运 行 时 自 动 开 启 这 些 端 口 ， 并 在 退 出 游 戏 时 关 闭 ， 无 需 手 动 操 作 。
+tagUPnPHelp=UPnP 是 一 种 允 许 客 户 端 和 路 由 器 交 互 数 据  的 协 议 。 在 创 建 互 联 网 主 机 时 ， 路 由 器 端 口 需 为 开 启 状 态 。 UPnp 协 议 在 游 戏 客 户 端 运 行 时 自 动 开 启 这 些 端 口 ， 并 在 退 出 游 戏 时 关 闭 ， 无 需 手 动 操 作 。
 tagIPCheckHelp=网 络 设 置 测 试 确 认 本 地 路 由 器 的 外 部 IP 地 址 与 互 联 网 的 外 部 IP 地 址 有 效 。
 
-tagIPCheckFail=本地路由器的公共IP地址与互联网检测出的地址不符。 常见于用户通过多层路由运行客户端并创建主机时。请检查路由器设置并重启游戏。
+tagIPCheckFail=本 地 路 由 器 的 公 共 IP 地 址 与 互 联 网 检 测 出 的 地 址 不 符 。 常 见 于 用 户 通 过 多 层 路 由 运 行 客 户 端 并 创 建 主 机 时 。 请 检 查 路 由 器 设 置 并 重 启 游 戏 。
 
-tagIPCheckFailMaybe=路由器上传的地址(%t0)不是有效的IP地址。路由器可能在正常运行时上传了错误的地址。如果您无法创建游戏主机，请检查网络设置，尤其确保客户端没有通过多层路由来创建主机。 某些网络供应商会使用捆绑路由器，如果客户端和捆绑路由器之间存在额外的路由，您将无法创建互联网游戏主机。
+tagIPCheckFailMaybe=路 由 器 上 传 的 地 址 (%t0) 不 是 有 效 的 IP 地 址 。 路 由 器 可 能 在 正 常 运 行 时 上 传 了 错 误 的 地 址 。 如 果 您 无 法 创 建 游 戏 主 机 ， 请 检 查 网 络 设 置 ， 尤 其 确 保 客 户 端 没 有 通 过 多 层 路 由 来 创 建 主 机 。 某 些 网 络 供 应 商 会 使 用 捆 绑 路 由 器 ， 如 果 客 户 端 和 捆 绑 路 由 器 之 间 存 在 额 外 的 路 由 ， 您 将 无 法 创 建 互 联 网 游 戏 主 机 。
 
-tagIPCheckPass=网络设置测试已通过。路由器报告的地址与互联网分配的IP地址一致。
+tagIPCheckPass=网 络 设 置 测 试 已 通 过 。 路 由 器 报 告 的 地 址 与 互 联 网 分 配 的 IP 地 址 一 致 。
 
-tagIPCheckUnable=无法进行网络设置测试。 测试需要路由器对游客户开放UPnP协和端口。请开启协议，重启游戏后再进行测试。
+tagIPCheckUnable=无 法 进 行 网 络 设 置 测 试 。 测 试 需 要 路 由 器 对 游 客 户 开 放 UPnP 协 和 端 口 。 请 开 启 协 议 ， 重 启 游 戏 后 再 进 行 测 试 。
 
-tagIPCheckUnableIP=无法获取外部IP地址，本次测试无法进行。
+tagIPCheckUnableIP=无 法 获 取 外 部 IP 地 址 ， 本 次 测 试 无 法 进 行 。
 
 tagIPTesting=网络设置测试中......
 tagIPLocalPublic=路由器IP：
@@ -350,18 +350,18 @@ tagMenuError18=无法建立连接，游戏人数已满。
 tagMenuError19=无法建立连接，此角色不满足服务器难度范围。
 tagMenuError20=密码错误。
 tagMenuError21=加入游戏需要自定义地图： {%t0}
-tagMenuError21a=游戏模式不兼容。 当前模式： "{%s0"}，游戏模式： "{%s1}"
+tagMenuError21a=游戏模式不兼容。当前模式： "{%s0"}，游戏模式： "{%s1}"
 tagMenuError21b=生存模式角色不能与其他模式角色共同游戏。
 tagMenuError22=游戏人数已满。
 tagMenuError23=游戏要求玩家等级为 {%d0} ~ {%d1}。
 tagMenuError24=部分设置只在重启游戏后生效。
 tagMenuError25=游戏设置已变更，是否应用新设置？
-tagMenuError26=无法连接到服务器-无效的CD-KEY激活码。
+tagMenuError26=无 法 连 接 到 服 务 器 - 无 效 的 CD-KEY 激 活 码 。
 tagMenuError28=无效的CD-KEY激活码。
 tagMenuError29=CD-KEY激活码已被使用
 tagMenuError30=CD-KEY激活码已失效
-tagMenuError31=正在刷新服务器列表，选择退出可浏览部分服务器列表。
-tagMenuError32=您的游戏版本与当前游戏不符，请更新游戏。
+tagMenuError31=正 在 刷 新 服 务 器 列 表 ， 选 择 退 出 可 浏 览 部 分 服 务 器 列 表 。
+tagMenuError32=您 的 游 戏 版 本 与 当 前 游 戏 不 符 ， 请 更 新 游 戏 。
 tagMenuError33=无法启用图像引擎。
 tagMenuError34=启动游戏需要开虚拟引擎。
 tagMenuError35=是否保存并退出游戏？
@@ -373,7 +373,7 @@ tagMenuError40=无效的玩家存档。
 tagMenuError41=请插入游戏安装光盘。
 tagMenuError42=STEAM认证失败。
 tagConnectAborted=中断连接。
-tagMenuWarning01=注意：此操作将为角色{%s}复制一个副本且只可用于自定义游戏。
+tagMenuWarning01=注 意 ： 此 操 作 将 为 角 色 {%s} 复 制 一 个 副 本 且 只 可 用 于 自 定 义 游 戏 。
 tagMenuWarning02=是否为角色重命名？
 tagMenuWarning03=直接点击OK将使用 {%s} 为新角色命名。
 tagMenuUpdate01=没有可用的游戏更新。
@@ -408,7 +408,7 @@ tagGameSummary={%d0} Games / {%d1} Players
 
 tagCharCreatePVP=PVP
 tagCharCreateAutoParty=自动组队
-tagCharCreatePVPwarning=您已加入PVP模式游戏，允许玩家互相攻击。PVP模式与自动组队模式不可同时启用。
+tagCharCreatePVPwarning=您 已 加 入 PVP 模 式 游 戏 ， 允 许 玩 家 互 相 攻 击 。 PVP 模 式 与 自 动 组 队 模 式 不 可 同 时 启 用 。
 tagCharCreateNeverShow=不再显示此提醒。
 tagCharImportProgress=正在从客户端导入角色，请稍等。
 tagCharImportTQCampaign=主体游戏角色
@@ -493,11 +493,11 @@ tagDeuteranopia=第二色盲：绿
 tagTritanopia=第二色盲：蓝
 
 tagOverwriteKeymap=The function ^y{%t0}^w has already been mapped to ^y{%t1}^w. Do you wish to overwrite? 
-tagHardDiskError=Your computer is currently low on hard drive space.  Grim Dawn may have difficulty saving your game.   To avoid this problem, please create more room on your hardrive.
-tagMenuError10=Unable to connect to server.  The mod or map version does not match the host.
+tagHardDiskError=硬 盘 空 间 不 足 。 客 户 端 无 法 为 您 保 存 游 戏 进 度 ， 请 提 升 硬 盘 空 间 以 避 免 出 现 问 题 。
+tagMenuError10=无 法 连 接 至 服 务 器 ， 地 图 或 MOD 版 本 不 符 。
 
-tagReportUsageStats=Help us improve Grim Dawn by periodically reporting anonymous system and gameplay stats?
-tagImportToSteamCloud=Steam Cloud Saving is enabled. Import existing characters?
-tagResetCloudWarning=Are you sure you want to delete all characters and data stored in the cloud?
-tagDownloadCloudWarning=Are you sure you want to download cloud saves? Locally saved characters and data will be overwritten!
+tagReportUsageStats=是 否 定 时 上 传 系 统 和 游 戏 数 据 来 帮 助 我 们 改 进 游 戏 ？
+tagImportToSteamCloud=steam 云 存 档 已 开 启 ， 是 否 导 入 已 存 在 的 角 色 信 息 ？
+tagResetCloudWarning=是 否 删 除 云 存 档 内 的 角 色 信 息 和 仓 库 数 据 ？
+tagDownloadCloudWarning=是 否 下 载 云 存 档 ？ 本 地 角 色 信 息 将 会 被 覆 盖 ！
 tagWorking=工作中......
