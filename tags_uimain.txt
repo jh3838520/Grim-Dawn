@@ -63,8 +63,8 @@ tagChallengeDifficulty=老兵难度
 tagHardcore=生存模式
 tagChallenge=老兵难度
 tagRDifficultyDesc01=通关此难度可以解锁生存模式。
-tagRDifficultyDesc02=The game must be completed in Normal difficulty to play Veteran difficulty.
-tagRDifficultyDesc03=The game must be completed in Veteran difficulty to play Elite difficulty.
+tagRDifficultyDesc02=通关正常难度后可以解锁老兵难度。
+tagRDifficultyDesc03=通关老兵难度后可以解锁精英难度。
 tagDifficultyTitleSet=选择难度：
 tagDifficultyTitleShow=允许加入游戏的难度：
 tagDifficultyNormal=普通模式
@@ -88,7 +88,7 @@ tagGameStateStarting=开始游戏......
 tagGameStateConnecting=连接服务器......
 tagGameStateData=等待服务器响应......
 
-tagGogMustBeSignedIn=您需要登陆GOG Galaxy平台进行游戏。 请登陆后通过GOG Launcher启动游戏。
+tagGogMustBeSignedIn=您需要登陆GOG Galaxy平台进行游戏。请登陆后通过GOG Launcher启动游戏。
 
 #
 # Options
@@ -114,13 +114,13 @@ tagGameplayOption10=网络连接
 tagGameplayOption10A=拨号上网
 tagGameplayOption10B=中等
 tagGameplayOption10C=快速
-tagGameplayOption11=Lock Item Pickup
+tagGameplayOption11=锁定物品拾取
 tagGameplayOption12=显示物品
 tagGameplayOption13=暴击特效
 tagGameplayOption14=目标信息
 tagGameplayOption15=锁定地图角度
-tagGameplayOption16=流血效果
-tagGameplayOption17=血腥程度
+tagGameplayOption16=血腥程度
+tagGameplayOption17=流血效果
 tagGameplayOption18=教程小贴士
 tagGameplayOption19=肢体存留时间
 tagGameplayOption20=经典的目标选取方式
@@ -156,7 +156,7 @@ tagKeybindingTitle02=功能
 tagKeybindingTitle03=首选键位
 tagKeybindingTitle04=第二键位
 tagKeybindingButton01=还原设置
-tagKeybindingMessage01=点击需要绑定的按键 {%t0}
+tagKeybindingMessage01=点击需要绑定的按键{%t0}
 tagKeybind01=角色窗口
 tagKeybind02=技能窗口
 tagKeybind03=任务列表
@@ -274,43 +274,41 @@ tagVideoOptionA2C=通道映射
 
 tagNetworkTitle=网络设置
 tagUpnpTitle=UPnP:
-tagUpnpStatus=UPnP Status:
-tagUpnpAvailable=Available
-tagUpnpNotAvailable=Not Available
-tagUpnpHelp=Help
-tagUpnpControl=Enable UPnP
-tagNetworkStatusTitle=Network Status:
-tagNetworkStatusTest=Test
-tagNetworkNoOpts=Network Options are unavailable in game.{^n}Please exit to the Main Menu and open the Options Menu.
-tagCloudSaving=Enable Cloud Saving
-tagResetCloud=Delete Cloud Saves
-tagDownloadCloud=Download Cloud Saves
+tagUpnpStatus=UPnP状态：
+tagUpnpAvailable=可用
+tagUpnpNotAvailable=不可用
+tagUpnpHelp=帮助
+tagUpnpControl=启用UPnP
+tagNetworkStatusTitle=网络连接状态：
+tagNetworkStatusTest=测试
+tagNetworkNoOpts=游戏中不能进行网络设置。{^n}请退出游戏至主菜单的设置-网络。
+tagCloudSaving=开启steam云存档
+tagResetCloud=删除云存档
+tagDownloadCloud=下载云存档
 
-tagUPnPCheckFail=UPnP Services are not available to configure your router to host a Grim Dawn Server.  Please check your router settings and enable UPnP, or, if that is not possible, manually configure your router to open port 27016 for both the UDP and TCP protocols.
+tagUPnPCheckFail=UPnP服务不可用，无法通过路由器创建游戏主机。请检查路由器设置并启用UPnP，或者手动设置UDP和TCP协议的连接端口为27016。
+tagUPnPNotAvailableHelp=UPnP服务不可用，无法通过路由器在互联网创建游戏主机。请检查路由器设置并启用UPnP，或者手动设置UDP和TCP协议的连接端口为27016。
 
-tagUPnPNotAvailableHelp=UPnP is not available.  Grim Dawn will not be able to auto-configure your router to Host an Internet server.  Please check your router settings and enable UPnP or manually configure your router to open port 27016 for both the UDP and TCP protocols.
+tagUPnPEnabledHelp=UPnP已启用，无需手动设置。
+tagUPnPDisabledHelp=UPnP已关闭，UDP和TCP协议的连接端口需设置为27016来创建游戏主机。
 
-tagUPnPEnabledHelp=UPnP is enabled.  No manual configuration is needed.
-tagUPnPDisabledHelp=UPnP is disabled.  Port 27016 must be opened on your router for both the UDP and TCP protocols to host a Grim Dawn server.
+tagUPnPHelp=UPnP是一种允许客户端和路由数据交互的协议。在创建互联网主机时，路由器端口需为开启状态。UPnp协议在游戏客户端运行时自动开启这些端口，并在退出游戏时关闭，无需手动操作。
+tagIPCheckHelp=网络设置测试确认本地路由器的外部IP地址与互联网的外部IP地址有效。
 
-tagUPnPHelp=UPnP is a protocol that allows Grim Dawn to Communicate with and control your router.  To host an Internet server, ports must be opened on your router.  UPnP allows Grim Dawn to open those ports, and close them on exit, with no manual configuration required.
+tagIPCheckFail=本地路由器的公共IP地址与互联网检测出的地址不符。 常见于用户通过多层路由运行客户端并创建主机时。请检查路由器设置并重启游戏。
 
-tagIPCheckHelp=The network configuration test checks that the local router has a valid external IP address, and that the address matches the external address visible to the internet.
+tagIPCheckFailMaybe=路由器上传的地址(%t0)不是有效的IP地址。路由器可能在正常运行时上传了错误的地址。如果您无法创建游戏主机，请检查网络设置，尤其确保客户端没有通过多层路由来创建主机。 某些网络供应商会使用捆绑路由器，如果客户端和捆绑路由器之间存在额外的路由，您将无法创建互联网游戏主机。
 
-tagIPCheckFail=The public IP address reported by your router does not match the public IP address externally visible to the Internet.  Usually, this is caused by attempting to host a Grim Dawn Server from behind more than one router.  Please check your router configuration and restart Grim Dawn.
+tagIPCheckPass=网络设置测试已通过。路由器报告的地址与互联网分配的IP地址一致。
 
-tagIPCheckFailMaybe=The public IP address reported by your router (%t0) is not a valid IP address.  It is possible that your router is functioning properly and did not report the public IP correctly.  However, if you are unable to host a Grim Dawn server, please check your router configuration.  In particular, you should check to make sure that the Grim Dawn server is not behind more than one router.  Some Internet providers use bundled modem/router devices.  If there is another router between the Grim Dawn server and the bundled device you will not be able to host an internet server.
+tagIPCheckUnable=无法进行网络设置测试。 测试需要路由器对游客户开放UPnP协和端口。请开启协议，重启游戏后再进行测试。
 
-tagIPCheckPass=Network configuration test passed.  The public IP address reported by your router matches that which is externally visible on the internet.
+tagIPCheckUnableIP=无法获取外部IP地址，本次测试无法进行。
 
-tagIPCheckUnable=Unable to test network configuration.  This check requires that the local router has the UPnP protocol enabled, and that UPnP support is enabled in Grim Dawn.  If it is not enabled, please enable it, restart Grim Dawn, and re-run this test.
-
-tagIPCheckUnableIP=Unable to obtain the externally visible IP address.  The test cannot be run at this time.
-
-tagIPTesting=Testing Configuration...
-tagIPLocalPublic=Public IP reported by your router:
-tagIPExternalPublic=Public IP visible to the Internet:
-tagIPInvalid=<Unable to obtain address>
+tagIPTesting=网络设置测试中......
+tagIPLocalPublic=路由器IP：
+tagIPExternalPublic=互联网分配IP：
+tagIPInvalid=<无法获取IP地址>
 
 
 tagMultiplayer01=游戏名称
@@ -362,7 +360,7 @@ tagMenuError26=无法连接到服务器-无效的CD-KEY激活码。
 tagMenuError28=无效的CD-KEY激活码。
 tagMenuError29=CD-KEY激活码已被使用
 tagMenuError30=CD-KEY激活码已失效
-tagMenuError31=Building server list.  Cancel to view partial server list.
+tagMenuError31=正在刷新服务器列表，选择退出可浏览部分服务器列表。
 tagMenuError32=您的游戏版本与当前游戏不符，请更新游戏。
 tagMenuError33=无法启用图像引擎。
 tagMenuError34=启动游戏需要开虚拟引擎。
@@ -372,7 +370,7 @@ tagMenuError37=游戏已经运行。
 tagMenuError38=角色名已存在。
 tagMenuError39=下载更新文件时出现错误。
 tagMenuError40=无效的玩家存档。
-tagMenuError41=Please insert the original Grim Dawn disc.
+tagMenuError41=请插入游戏安装光盘。
 tagMenuError42=STEAM认证失败。
 tagConnectAborted=中断连接。
 tagMenuWarning01=注意：此操作将为角色{%s}复制一个副本且只可用于自定义游戏。
@@ -502,4 +500,4 @@ tagReportUsageStats=Help us improve Grim Dawn by periodically reporting anonymou
 tagImportToSteamCloud=Steam Cloud Saving is enabled. Import existing characters?
 tagResetCloudWarning=Are you sure you want to delete all characters and data stored in the cloud?
 tagDownloadCloudWarning=Are you sure you want to download cloud saves? Locally saved characters and data will be overwritten!
-tagWorking=Working...
+tagWorking=工作中......
