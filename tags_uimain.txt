@@ -1,5 +1,5 @@
-﻿tagTitleScreenText=Grim Dawn Early Access{^n}©2015 Crate Entertainment, LLC{^n}{^n}Welcome to Grim Dawn Early Access! We appreciate your feedback.{^n}{^n}Please visit us at www.grimdawn.com to participate{^n}in the ongoing development of Grim Dawn!
-tagDemoScreenText=Thanks for  playing!{^n}{^n}Grim Dawn is currently available on Steam Early Access, or via our website at www.grimdawn.com
+﻿tagTitleScreenText=恐怖黎明{^n}©2015 Crate Entertainment, LLC{^n}{^n}欢迎来到测试版，期待您的反馈！{^n}{^n}请访问www.grimdawn.com参与到{^n}游戏后续制作！
+tagDemoScreenText=欢迎各位玩家！{^n}{^n}游戏可通过steam平台获得，或者访问www.grimdawn.com订购。
 tagMenu01=开始游戏
 tagMenu02=自定义游戏
 tagMenu03=information
